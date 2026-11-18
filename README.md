@@ -43,6 +43,9 @@ Tested phones: Samsung Galaxy A20e, S20, S26.
 1. Download the newest zip from **Releases** and unpack it.
 2. Connect the laptop to the car with the ENET cable, ignition on (parked).
 3. Run `python nbt_aa_installer.py`, enter the head unit's IP (default `169.254.199.99`) and the root password.
+   - Python 3.8 or newer is needed (<https://www.python.org/downloads/>, check *Add python.exe to PATH* during setup).
+   - If a required Python package is missing, the installer says which one and how to install it — follow its
+     instructions and start it again.
 4. Keep **Android Auto** checked and **uncheck Motor Live** (see below), then click *Install / Update*.
 5. Restart iDrive (hold the volume/power button for about 30 s).
 6. Open **Multimedia → Android Auto** and plug in the phone.
