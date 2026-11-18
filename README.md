@@ -28,7 +28,7 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | Unplug / replug the phone: Android Auto starts again cleanly | ✅ works |
 | **Motor Live** — iDrive page with live engine data | ⚠️ **not ready — not recommended to install yet** |
 | Car microphone for the Google Assistant / voice commands | ❌ not yet (in progress) |
-| Native wired CarPlay | ❌ not possible with this head unit |
+| CarPlay (with a CarPlay receiver adapter on the NBT's USB port) | 🔧 in progress |
 
 Tested phones: Samsung Galaxy A20e, S20, S26.
 
