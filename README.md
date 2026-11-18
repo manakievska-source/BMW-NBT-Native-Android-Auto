@@ -70,7 +70,7 @@ installed and removed independently of Android Auto.
 ## Known limitations
 
 - Voice commands through the car microphone are not available yet — a solution is in the works and will come with a
-  future release. Until then, the phone's own microphone can be used.
+  future release.
 - The picture comes from the phone at 800×480 and is scaled to the 1280×480 screen.
 
 ## Disclaimer
