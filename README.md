@@ -27,7 +27,7 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | Sound and picture come back by themselves after a short ignition off/on | ✅ works |
 | Unplug / replug the phone: Android Auto starts again cleanly | ✅ works |
 | **Motor Live** — iDrive page with live engine data | ⚠️ **not ready — not recommended to install yet** |
-| Car microphone for the Google Assistant / voice commands | ❌ not yet (in progress) |
+| Car microphone for "Hey Google" / voice commands | 🔜 coming soon |
 | CarPlay (with a CarPlay receiver adapter on the NBT's USB port) | 🔧 in progress |
 
 Tested phones: Samsung Galaxy A20e, S20, S26.
@@ -69,7 +69,8 @@ installed and removed independently of Android Auto.
 
 ## Known limitations
 
-- Voice commands with the car microphone do not work yet.
+- Voice commands through the car microphone are not available yet — a solution is in the works and will come with a
+  future release. Until then, the phone's own microphone can be used.
 - The picture comes from the phone at 800×480 and is scaled to the 1280×480 screen.
 
 ## Disclaimer
