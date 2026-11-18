@@ -5,6 +5,11 @@ Wired Android Auto for the **original BMW HU_NBT** head unit (F-series iDrive, I
 
 This repository contains **installer releases only** (see *Releases*), a description and the licenses.
 
+> **⚠️ Beta.** This is a beta version, not a final release. It works well in the test car, but it has only been
+> tested on a few cars and phones so far. **Testers are welcome!** If you have an original NBT, try it and report
+> what works and what does not via GitHub *Issues* (car model, NBT software version, phone model, and the diagnostic
+> logs from the installer).
+
 ---
 
 ## Features (car-tested, November 2026)
@@ -60,10 +65,6 @@ installed and removed independently of Android Auto.
 
 ## Troubleshooting
 
-- **The Android Auto entry page is shown instead of the picture:** press **BACK** and open Android Auto again.
-- **"Reconnect the phone":** unplug the phone, wait a few seconds and plug it in again.
-- **No picture or no sound after a change:** open the Android Auto entry page and choose *Android Auto neu starten*
-  (restarts only Android Auto, not the head unit), or restart iDrive.
 - **Problem report:** in the installer click *Save diagnostic logs* and attach the zip to a GitHub issue.
 
 ## Known limitations
