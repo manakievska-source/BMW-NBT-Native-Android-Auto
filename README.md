@@ -19,7 +19,7 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | Android Auto music as a real iDrive entertainment source (radio ⇄ Android Auto switching) | ✅ works (option) |
 | Sound returns by itself after a short ignition off/on | ✅ works |
 | Unplug / replug the phone: Android Auto restarts cleanly | ✅ works |
-| **Motor Live**: iDrive page with live engine data (B47 diesel) | 🧪 page works, engine values in progress |
+| **Motor Live**: iDrive page with live engine data (B47 diesel) | ⚠️ **not ready — not recommended to install yet** |
 | Car microphone for the Google Assistant / voice commands | ❌ not yet (under investigation) |
 | Native wired CarPlay | ❌ not possible with this head unit's Apple chip (iAP1 only) |
 
@@ -36,11 +36,19 @@ Tested phones: Samsung Galaxy A20e, S20, S26.
 1. Download the newest zip from **Releases** and unpack it.
 2. Connect the laptop to the car with the ENET cable, ignition on (parked).
 3. Run `python nbt_aa_installer.py`, enter the head unit's IP (default `169.254.199.99`) and the root password.
-4. Choose what to install — **Android Auto** and/or **Motor Live** — and click *Install / Update*.
+4. Keep **Android Auto** checked and **uncheck Motor Live** (see below), then click *Install / Update*.
 5. Restart iDrive (hold the volume/power button ~30 s). Then **Multimedia → Android Auto** and plug in the phone.
 
 *Uninstall* removes only the checked parts. Nothing outside the package folders is changed: no firmware flashing,
 no coding, no system files.
+
+## Motor Live (experimental)
+
+Motor Live is an optional iDrive page (**Multimedia → Motor Live**) meant to show live engine data such as boost,
+rail pressure, exhaust gas temperatures, DPF soot load and oil/coolant temperatures. **It is not ready yet:** the page
+appears in the menu, but the engine values are not read yet, and it has only been tried on one car with a B47 diesel.
+**It is recommended not to install it for now** — leave the *Motor Live* box unchecked in the installer. It is
+installed and removed independently of Android Auto.
 
 ## Known limitations
 
