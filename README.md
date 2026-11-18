@@ -5,8 +5,6 @@ Wired Android Auto for the **original BMW HU_NBT** head unit (Intel Atom / QNX 6
 
 This repository contains **installer releases only** (see *Releases*), a description and the licenses.
 
-[Srpski opis ispod](#srpski)
-
 ---
 
 ## What works (car-tested, November 2026)
@@ -65,26 +63,3 @@ or Google. BMW, iDrive, Android and Android Auto are trademarks of their respect
   © manakievska-source — see [LICENSE.md](LICENSE.md).
 
 Noncommercial use only.
-
----
-
-<a id="srpski"></a>
-## Srpski
-
-Žični Android Auto za **originalni BMW HU_NBT** (ne NBT Evo). Ovde se nalaze samo instaleri (*Releases*), opis i
-licence.
-
-**Šta radi (provereno u autu, novembar 2026):**
-- Android Auto preko USB-a, ulaz **Multimedia → Android Auto**, iDrive kontroler upravlja AA-om.
-- Slika ide direktno na NVIDIA grafički sloj preko celog ekrana (sopstveni dekoder, bez Cinemo-a), mali lag,
-  60 fps.
-- Zvuk bez Bluetooth-a, preko auta; po želji AA muzika kao pravi izvor (prelazak radio ⇄ AA).
-- Zvuk se sam vraća posle kratkog gašenja/paljenja kontakta; ponovno priključivanje telefona radi.
-- **Motor Live** (podaci motora B47 na iDrive-u): stranica radi, vrednosti su u izradi.
-- Mikrofon auta za glasovne komande: još ne radi. Žični CarPlay: nije moguć na ovom uređaju.
-
-**Instalacija:** preuzmi zip iz *Releases*, poveži laptop ENET kablom (kontakt upaljen, parkiran), pokreni
-`python nbt_aa_installer.py`, upiši IP (`169.254.199.99`) i root lozinku, izaberi delove i *Install*. Posle toga
-restart iDrive-a (dugme ~30 s). Ništa se ne flešuje i ne kodira.
-
-Korišćenje na sopstvenu odgovornost, samo nekomercijalno.
