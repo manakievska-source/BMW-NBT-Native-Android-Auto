@@ -27,7 +27,9 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | Sound and picture come back by themselves after a short ignition off/on | ✅ works |
 | Unplug / replug the phone: Android Auto starts again cleanly | ✅ works |
 | **Motor Live** — iDrive page with live engine data | ⚠️ **not ready — not recommended to install yet** |
-| Car microphone for "Hey Google" / voice commands | 🔜 coming soon |
+| **Car microphone** for "Hey Google" / voice commands — the Google Assistant hears you through the car's microphones | ✅ works |
+| **NAV button shortcut**: short press = Android Auto from any menu, long press = original BMW navigation | ✅ works |
+| Back to Android Auto after park sensors (PDC) / reverse gear | ⚠️ one push on the popup (automatic return in progress) |
 | CarPlay (with a CarPlay receiver adapter on the NBT's USB port) | 🔧 in progress |
 
 Tested phones: Samsung Galaxy A20e, S20, S26.
@@ -72,8 +74,10 @@ installed and removed independently of Android Auto.
 
 ## Known limitations
 
-- Voice commands through the car microphone are not available yet — a solution is in the works and will come with a
-  future release.
+- After the park sensors (PDC) or reverse gear, Android Auto does not come back by itself yet: a popup appears, one
+  push on the controller brings Android Auto back. *A fix is actively being worked on.*
+- A short NAV press shows the original navigation for a moment before Android Auto opens. *A fix is actively being
+  worked on.*
 - The picture comes from the phone at 800×480 and is scaled to the 1280×480 screen.
 
 ## Disclaimer
