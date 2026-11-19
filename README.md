@@ -76,8 +76,8 @@ installed and removed independently of Android Auto.
 
 - After the park sensors (PDC) or reverse gear, Android Auto does not come back by itself yet: a popup appears, one
   push on the controller brings Android Auto back. *A fix is actively being worked on.*
-- A short NAV press shows the original navigation for a moment before Android Auto opens. *A fix is actively being
-  worked on.*
+- The NAV shortcut works, but a short NAV press shows the original navigation for a moment before Android Auto
+  opens. *Removing this flash is actively being worked on.*
 - The picture comes from the phone at 800×480 and is scaled to the 1280×480 screen.
 
 ## Disclaimer
