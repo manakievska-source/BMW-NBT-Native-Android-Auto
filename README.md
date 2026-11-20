@@ -30,7 +30,7 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | **Car microphone** for "Hey Google" / voice commands — the Google Assistant hears you through the car's microphones | ✅ works |
 | **NAV button shortcut**: short press = Android Auto from any menu, long press = original BMW navigation | ✅ works |
 | **Steering-wheel list in the instrument cluster** while Android Auto plays: roll the wheel → *Previous* / song / artist / *Next*, push on *Previous* or *Next* changes the track | ✅ works |
-| Navigation announcements while the radio plays — the radio continues right after | ✅ works |
+| Android Auto announcements, notifications and Google Assistant replies **no longer interrupt the radio**: they play over it and the radio continues right after | ✅ works |
 | Back to Android Auto after park sensors (PDC) / reverse gear | ⚠️ one push on the popup (automatic return in progress) |
 | CarPlay (with a CarPlay receiver adapter on the NBT's USB port) | 🔧 in progress |
 
