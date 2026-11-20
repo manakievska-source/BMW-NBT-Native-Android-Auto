@@ -9,17 +9,23 @@ This covers the original work in the BMW NBT Native Android Auto releases, in pa
 - the GPU video path and decoder integration (`nbt_gpu_video`),
 - the Motor Live engine data page (`nbt_motor`, `libNbtMotorLive.so` and its resources),
 - the audio routing extensions and route keeper, the session and video fixes in `native_service`,
-  `libNbtAndroidAuto.so` and `audioconn`, and the release packaging.
+  `libNbtAndroidAuto.so` and `audioconn`, and the release packaging,
+- the steering-wheel list in the instrument cluster (now playing, previous / next track) and the audio source
+  detection (`nbt_knob`), the now-playing and media-key integration, and the split of the Android Auto sound
+  (announcements, notifications and Google Assistant replies over the radio, music as an own audio source),
+- the instrument cluster, head-up display and vehicle data integration work.
 
 Permission is granted, free of charge, to download and install the released installer packages and to use them for
 **personal, noncommercial purposes in your own vehicle**.
 
 Without prior written permission of the copyright holder you may **not**:
 
+- copy the packages or parts of them, except as needed to install them in your own vehicle,
 - redistribute, publish, sell, rent or otherwise make the packages or parts of them available to others,
 - modify, decompile, disassemble or reverse engineer the original work, except where applicable law expressly
   permits it,
-- use the original work or parts of it in other products or projects.
+- use the original work or parts of it (including its design and implementation) in other products or
+  projects.
 
 ## Third-party components
 
