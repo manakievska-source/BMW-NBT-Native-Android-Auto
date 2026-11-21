@@ -31,7 +31,9 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | **NAV button shortcut**: short press = Android Auto from any menu, long press = original BMW navigation | ✅ works |
 | **Steering-wheel list in the instrument cluster** while Android Auto plays: roll the wheel → *Previous* / song / artist / *Next*, push on *Previous* or *Next* changes the track | ✅ works |
 | Android Auto announcements, notifications and Google Assistant replies **no longer interrupt the radio**: they play over it and the radio continues right after | ✅ works |
-| Back to Android Auto after park sensors (PDC) / reverse gear | ⚠️ one push on the popup (automatic return in progress) |
+| **"Hey Google" from the steering wheel**: long press on the voice button starts the Google Assistant, a short press is still BMW voice control | ✅ works |
+| Back to Android Auto by itself after park sensors (PDC) / reverse gear | ✅ works |
+| Android Auto navigation in the instrument cluster | ⚠️ started, not complete yet |
 | CarPlay (with a CarPlay receiver adapter on the NBT's USB port) | 🔧 in progress |
 
 Tested phones: Samsung Galaxy A20e, S20, S26.
@@ -76,13 +78,12 @@ installed and removed independently of Android Auto.
 
 ## Known limitations
 
-- After the park sensors (PDC) or reverse gear, Android Auto does not come back by itself yet: a popup appears, one
-  push on the controller brings Android Auto back. *A fix is actively being worked on.*
 - The NAV shortcut works, but a short NAV press shows the original navigation for a moment before Android Auto
   opens. *Removing this flash is actively being worked on.*
 - The picture comes from the phone at 800×480 and is scaled to the 1280×480 screen.
 - The steering-wheel list is shown in the instrument cluster only (not yet in the head-up display), and only while
   Android Auto is the audio source; with the radio the wheel works as before.
+- Android Auto navigation in the instrument cluster is started but not complete yet.
 
 ## Disclaimer
 
