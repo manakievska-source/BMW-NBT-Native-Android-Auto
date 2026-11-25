@@ -3,6 +3,11 @@
 Wired Android Auto for the **original BMW HU_NBT** head unit (F-series iDrive, Intel / QNX).
 **Not** for NBT Evo / ID4 / ID5 / ID6 — those use a different platform.
 
+> [!IMPORTANT]
+> ## 📥 Downloads: [nbt-android-auto.nbt-aa.workers.dev](https://nbt-android-auto.nbt-aa.workers.dev)
+> From now on, the installer files are published **only on the website**.
+> Updates are still announced here on GitHub, with a link to the website.
+
 This repository contains **installer releases only** (see *Releases*), a description and the licenses.
 
 > **⚠️ Beta.** This is a beta version, not a final release. It works well in the test car, but it has only been
