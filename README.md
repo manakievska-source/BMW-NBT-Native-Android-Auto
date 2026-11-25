@@ -20,6 +20,8 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | Own iDrive entry **Multimedia → Android Auto** | ✅ works |
 | iDrive controller (turn, push, tilt, BACK) controls Android Auto | ✅ works |
 | **60 fps**, full-screen picture on the 1280×480 display | ✅ works |
+| **Sharper picture**: decoded by the car's own graphics chip (nVidia) at the display's native 1280×480, 60 fps | ✅ works |
+| More stable USB connection: short USB errors are recovered without dropping the session | ✅ works |
 | **Low lag** — fast response to the controller and smooth maps | ✅ works |
 | **Sound without Bluetooth**, through the car's audio system | ✅ works |
 | Android Auto music as a real audio source — switch between radio and Android Auto like any other source | ✅ works |
@@ -34,7 +36,7 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | **"Hey Google" from the steering wheel**: long press on the voice button starts the Google Assistant, a short press is still BMW voice control | ✅ works |
 | Back to Android Auto by itself after park sensors (PDC) / reverse gear | ✅ works |
 | Android Auto navigation in the instrument cluster | ⚠️ started, not complete yet |
-| CarPlay (with a CarPlay receiver adapter on the NBT's USB port) | 🔧 in progress |
+| **CarPlay without any extra dongle or hardware**: the iPhone plugs straight into the NBT's own USB port | ✅ ready and working in the test car — **coming with the next release** |
 
 Tested phones: Samsung Galaxy A20e, S20, S26.
 
@@ -80,7 +82,8 @@ installed and removed independently of Android Auto.
 
 - The NAV shortcut works, but a short NAV press shows the original navigation for a moment before Android Auto
   opens. *Removing this flash is actively being worked on.*
-- The picture comes from the phone at 800×480 and is scaled to the 1280×480 screen.
+- Use *Restart Android Auto* only with the phone unplugged: otherwise the picture can freeze until iDrive is
+  restarted.
 - The steering-wheel list is shown in the instrument cluster only (not yet in the head-up display), and only while
   Android Auto is the audio source; with the radio the wheel works as before.
 - Android Auto navigation in the instrument cluster is started but not complete yet.
