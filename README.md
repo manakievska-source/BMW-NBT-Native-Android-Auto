@@ -41,7 +41,7 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | **"Hey Google" from the steering wheel**: long press on the voice button starts the Google Assistant, a short press is still BMW voice control | ✅ works |
 | Back to Android Auto by itself after park sensors (PDC) / reverse gear | ✅ works |
 | Android Auto navigation in the instrument cluster | ⚠️ started, not complete yet |
-| **CarPlay without any extra dongle or hardware**: the iPhone plugs straight into the NBT's own USB port | ✅ ready and working in the test car — **coming with the next release** |
+| **CarPlay without any extra dongle or hardware**: the iPhone plugs straight into the NBT's own USB port | ✅ ready and released on website. |
 
 Tested phones: Samsung Galaxy A20e, S20, S26.
 
