@@ -33,7 +33,7 @@ This repository contains **installer releases only** (see *Releases*), a descrip
 | Navigation announcements | ✅ works |
 | Sound and picture come back by themselves after a short ignition off/on | ✅ works |
 | Unplug / replug the phone: Android Auto starts again cleanly | ✅ works |
-| **Motor Live** — iDrive page with live engine data | ⚠️ **not ready — not recommended to install yet** |
+| **Car Live** — iDrive page with live engine data | ✅ works |
 | **Car microphone** for "Hey Google" / voice commands — the Google Assistant hears you through the car's microphones | ✅ works |
 | **NAV button shortcut**: short press = Android Auto from any menu, long press = original BMW navigation | ✅ works |
 | **Steering-wheel list in the instrument cluster** while Android Auto plays: roll the wheel → *Previous* / song / artist / *Next*, push on *Previous* or *Next* changes the track | ✅ works |
